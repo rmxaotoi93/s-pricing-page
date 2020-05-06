@@ -1,0 +1,85 @@
+body{
+    margin: 0 auto;
+    background-color: #f8f9fa;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    mix-blend-mode: multiply;
+}
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 12px;
+    background-color: #6c757d;
+    float: right;
+    margin-top: 7px;
+}
+.circle p{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.form h3{
+    font-size: 16px;
+    color:  #212529;
+    font-weight: 400;
+}
+.form-3{
+    display: flex;
+    justify-content: space-between;
+}
+.title h1{
+    font-size: 16px;
+    color: #212529;;
+}
+.title p{
+    margin-top: -7px;
+    font-size: 13px;
+    color: #6c757d;
+
+}
+.title{
+    margin-left: 30px;
+}
+.number{
+    margin-right: 30px;
+}
+.frame{
+    border: 1px solid rgba(0,0,0,.125);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: none;
+    background-color: white;
+}
+.frame1{
+    border: 1px solid rgba(0,0,0,.125);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: none;
+    background-color: #f8f9fa;
+    
+}
+.frame1 h1{
+    color: #28a745;
+}
+.frame1 p{
+    color: #28a745;
+}
+.line{
+    border-top: 1px solid rgba(0,0,0,.1);;
+    margin-top: 1rem;
+}
+.link-bottom{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.link-bottom a{
+    margin: -10px 10px 70px 10px;
+    
+
+}

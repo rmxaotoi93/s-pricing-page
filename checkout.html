@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" crossorigin="anonymous"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" />
+    <link rel="stylesheet" crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" />
+    <link rel="stylesheet" href="checkOut.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="logo container">
+        <img src="img/logo.jpeg" />
+
+    </div>
+    <div class="container">
+        <h2 class="text-center" style="color: #cd4541;">Checkout Form</h2>
+        <p class="text-center" style="font-size: 18px;">Below is an example form built entirely with Bootstrap's form
+            control. Each required form group has a validation state that can be triggered by attempting to submit the
+            form without completing it.</p>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-8">
+                <h1 style="font-size: 24px">Billing address</h1>
+                <div class="row form mt-3">
+                    <div class="col-md-6">
+                        <h3>First name</h3>
+                        <input type="text" class="form-control" id="email"  >
+                    </div>
+                    <div class="col-md-6">
+                        <h3>First name</h3>
+                        <input type="text" class="form-control" id="email"  >
+                    </div>
+
+                </div>
+                <div class="form mt-3">
+                    <h3>Username</h3>
+                </div>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">@</span>
+                    </div>
+                    <input class="form-control" type="text" placeholder="Username"/>
+                </div>
+                <div class="form mt-3">
+                    <h3>Email <a style="color: #6c757d">(Optional)</a></h3>
+                    <input class="form-control" type="text" placeholder="you@example"/>
+                </div>
+                <div class="form mt-3">
+                    <h3>Address</h3>
+                    <input class="form-control" type="text" placeholder="1234 Main St"/>
+                </div>
+                <div class="form mt-3">
+                    <h3>Address 2 <a style="color: #6c757d">(Optional)</a></h3>
+                    <input class="form-control" type="text" placeholder="Apartment or Suite"/>
+                </div>
+                <div class="form-3 row">
+                    <div class="col-md-5 form mt-3">
+                        <h3>Country</h3>
+                        
+                        <select class="custom-select" width="300px">
+                            <option>Choose</option>
+                            <option>Viet Nam</option>
+                            <option>Australia</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4 form mt-3">
+                        <h3>State</h3>
+                        
+                        <select class="custom-select">
+                            <option>Choose</option>
+                            <option>Viet Nam</option>
+                            <option>Australia</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3 form mt-3">
+                        <h3>Zip</h3>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="line mt-5 ">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input">
+                        <label class="custom-control-label mt-4">Shipping address is the same as my billing address</label>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input">
+                        <label class="custom-control-label mb-4">Save this information for next time</label>
+                    </div>
+                </div>
+                <div class="line mt-n1">
+                    <h1 style="font-size: 24px;" class="mt-4 mb-3">Payment</h1>
+                </div>
+                <div class="custom-control custom-radio">
+                    <input id="credit" name="paymentMethod" type="radio" class="custom-control-input">
+                    <label class="custom-control-label" for="credit">Credit card</label>
+                </div>
+                <div class="custom-control custom-radio">
+                    <input id="debit" name="paymentMethod" type="radio" class="custom-control-input">
+                    <label class="custom-control-label" for="debit">Debit card</label>
+                </div>
+                <div class="custom-control custom-radio">
+                    <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input">
+                    <label class="custom-control-label" for="paypal">Paypal</label>
+                </div>
+
+                <div class="row form mt-3">
+                    <div class="col-md-6">
+                        <h3>Name on card</h3>
+                        <input type="text" class="form-control" id="email"  >
+                        <small class="text-muted">Full name as displayed on card</small>
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Credit card number </h3>
+                        <input type="text" class="form-control" id="email"  >
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-3 form">
+                        <h3>Expiration</h3>
+                        <input type="text" class="form-control" id="email"  >
+                    </div>
+                    <div class="col-md-3 form">
+                        <h3>CVV</h3>
+                        <input type="text" class="form-control" id="email"  >
+                    </div>
+                </div>
+                <div class="line mt-5 pb-5">
+                    <button class="btn btn-primary btn-lg btn-block mt-4 mb-5">Continue to checkout</button>
+                </div>
+            </div>
+
+            <div class="col-md-4 row">
+                <div class="col-md-6">
+                    <p style="color: #6c757d; font-size: 24px; font-weight: 600">Your cart</p>
+                    
+                    
+                </div>
+                <div class="col-md-6">
+                    <div class="circle">
+                        <p>3</p>
+                    </div>
+                   
+                </div>
+                <div class="col-md">
+                    <div class=" frame">
+                        <div class="title mt-3">
+                            <h1>Product name</h1>
+                            <p>Web Design Bootcamp</p>
+                        </div>
+                        
+                            <div class="number mt-3 ">
+                                <p>4.9 M</p>
+                              </div>
+                    </div>
+                    <div class=" frame">
+                        <div class="title mt-3">
+                            <h1>Second product</h1>
+                            <p>React + React Native</p>
+                        </div>
+                        
+                            <div class="number mt-3 ">
+                                <p>14.9 M</p>
+                              </div>
+                    </div>
+                    <div class=" frame">
+                        <div class="title mt-3">
+                            <h1>Third item</h1>
+                            <p>Machine Learning</p>
+                        </div>
+                        
+                            <div class="number mt-3 ">
+                                <p>14.9 M</p>
+                              </div>
+                    </div>
+                    <div class="frame1">
+                        <div class="title mt-3">
+                            <h1>Promo code</h1>
+                            <p>EXAMPLECODE</p>
+                        </div>
+                        
+                            <div class="number mt-3 ">
+                                <p>-7.5 M</p>
+                              </div>
+                    </div>
+                    <div class=" frame">
+                        <div class="title mt-3">
+                            <h1>Total (VND)</h1>
+                            
+                        </div>
+                        
+                            <div class="number mt-3 ">
+                                <p style="font-weight: bold;">27.2 M</p>
+                              </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+    <p class="text-center">© 2017-2018 Company Name</p>
+    <div class="link-bottom">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Support</a>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
